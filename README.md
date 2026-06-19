@@ -1,10 +1,10 @@
-# 🚀 -ALGORITHMS
+# ALGORITHMS
 
 Welcome to my Algorithms repository! This space is dedicated to documenting my journey learning, implementing, and mastering various data structures and algorithms using **C++**. 
 
 ---
 
-## 📚 Topics Covered
+## Topics Covered
 
 Here is a running checklist of the concepts and algorithms I have implemented so far:
 
@@ -17,7 +17,7 @@ Here is a running checklist of the concepts and algorithms I have implemented so
 
 ---
 
-## 🛠️ Environment & Tools
+## Environment & Tools
 
 * **Language:** C++
 * **IDE/Editor:** Visual Studio Code (VS Code)
@@ -26,7 +26,7 @@ Here is a running checklist of the concepts and algorithms I have implemented so
 
 ---
 
-## 🏃 How to Run the Code Locally
+## How to Run the Code Locally
 
 To compile and run any of the C++ files in this repository using your terminal, use the following standard commands:
 
