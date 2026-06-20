@@ -1,5 +1,5 @@
 #include<cstdlib>
-# include <iostream>
+#include <iostream>
 #include<vector>
 using namespace std;
 
@@ -32,11 +32,15 @@ long long Maxpairwiseproductfast(vector<int> & numbers){
     return (long long)numbers[max_index1]*numbers[max_index2];
 }
 int main(){
-    while(true){
+   /* while(true){
         int n = rand()%10+2;
-        vector<int> numbers(n);
+        cout<<n<<endl;
+        vector<int> numbers;
         for(int i=0; i<n; i++){
             numbers.push_back(rand()%100000);
+        }
+        for(int i=0; i<n; i++){
+            cout<<numbers[i]<<" ";
         }
         long long result1=Maxpairwiseproduct(numbers);
         long long result2=Maxpairwiseproductfast(numbers);
@@ -47,7 +51,7 @@ int main(){
         else{
             cout<<"OK"<<endl;
         }
-    }
+    }*/
     int n;
     cin>>n;
     vector<int> numbers(n);
@@ -55,4 +59,5 @@ int main(){
         cin>>numbers[i];
     }
     cout<<Maxpairwiseproductfast(numbers)<<endl;
+    return 0;
 }
