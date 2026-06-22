@@ -20,7 +20,7 @@ void Print_Subarrays(int arr[],int n){ //O(n^3)
         cout<<endl;
     }
 }
-void Maximum_Subarray_Sum_Bruteforce(int arr[],int n){ //O(n^3)
+void Maximum_Subarray_Sum_Bruteforce(int arr[],int n){ //O(n^2)
     int max_sum=0;
     for(int Start=0;Start<n;Start++){
         int Current_sum=0;
