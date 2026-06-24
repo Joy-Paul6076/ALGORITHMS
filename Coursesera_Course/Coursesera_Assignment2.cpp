@@ -32,7 +32,7 @@ long long Maxpairwiseproductfast(vector<int> & numbers){
     return (long long)numbers[max_index1]*numbers[max_index2];
 }
 int main(){
-   /* while(true){
+   while(true){
         int n = rand()%10+2;
         cout<<n<<endl;
         vector<int> numbers;
@@ -51,7 +51,7 @@ int main(){
         else{
             cout<<"OK"<<endl;
         }
-    }*/
+    }
     int n;
     cin>>n;
     vector<int> numbers(n);
