@@ -3,7 +3,7 @@
 using namespace std;
 //Majority Element must be exist in the array & majority element > n/2
 
-int majority_Element(vector<int> &arr){
+int majority_Element(vector<int> &arr){//O(n^2)
     int n=arr.size();
     for(int val : arr){
         int count=0;
@@ -18,7 +18,7 @@ int majority_Element(vector<int> &arr){
         }
     }
 }
-int optimized_majority_element(vector<int> &arr){
+int optimized_majority_element(vector<int> &arr){//O(nlogn)
     int n=arr.size();
     for(int i=0; i<n; i++){
         for(int j=i+1; j<n; j++){
@@ -41,7 +41,7 @@ int optimized_majority_element(vector<int> &arr){
         }
     }
 }
-int moores_Voting_algorithm(vector<int> &arr){
+int moores_Voting_algorithm(vector<int> &arr){//O(n)
     int n=arr.size();
     int count=0;
     int candidate=-1;
