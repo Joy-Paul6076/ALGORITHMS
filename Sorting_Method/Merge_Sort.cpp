@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void Merge_Sort(int arr[], int n) {
+void Merge_Sort(int arr[], int n) {//o(nlogn)
     if (n <= 1) return;
 
     int mid = n / 2;

@@ -2,7 +2,7 @@
 #include<vector>
 using namespace std;
 
-void count_sort(int a[], int n){
+void count_sort(int a[], int n){//o(n)
     int output[n];
     int count[10]={0};
     for(int i=0; i<n; i++){
