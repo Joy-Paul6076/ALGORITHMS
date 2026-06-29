@@ -3,7 +3,7 @@
 #include<vector>
 using namespace std;
 
-long long Maxpairwiseproduct(vector<int> & numbers){
+long long Maxpairwiseproduct(vector<int> & numbers){//o(n^2)
     long long result =0;
     int n = numbers.size();
     for(int i=0; i<n; i++){
@@ -15,7 +15,7 @@ long long Maxpairwiseproduct(vector<int> & numbers){
     }
     return result;
 }
-long long Maxpairwiseproductfast(vector<int> & numbers){
+long long Maxpairwiseproductfast(vector<int> & numbers){//o(n)
     int n = numbers.size();
     int max_index1=-1;
     for(int i=0; i<n; i++){
@@ -32,7 +32,7 @@ long long Maxpairwiseproductfast(vector<int> & numbers){
     return (long long)numbers[max_index1]*numbers[max_index2];
 }
 int main(){
-   while(true){
+   /*while(true){
         int n = rand()%10+2;
         cout<<n<<endl;
         vector<int> numbers;
@@ -51,7 +51,7 @@ int main(){
         else{
             cout<<"OK"<<endl;
         }
-    }
+    }*/
     int n;
     cin>>n;
     vector<int> numbers(n);
